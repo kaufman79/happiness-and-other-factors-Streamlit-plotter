@@ -12,7 +12,7 @@ x_option = st.selectbox("Select the data for the X-axis",
                         options, index=default_option)
 y_option = st.selectbox("Select the data for the Y-axis",
                         options, index=default_option)
-st.write("(Note that a lower 'corruption' score indicates more corruption,"
+st.write("(Note that a lower 'corruption' score indicates more corruption, "
          "whereas a higher score indicates less corruption)")
 
 x_option = x_option.replace(" ", "_")
